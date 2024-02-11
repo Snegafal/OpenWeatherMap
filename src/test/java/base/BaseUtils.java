@@ -28,8 +28,6 @@ public final class BaseUtils {
                 chromeOptions.addArguments(argument);
             }
         }
-
-        WebDriverManager.chromedriver().setup();
     }
 
     private static void initProperties() {
